@@ -78,6 +78,85 @@ body{
     border-color: white;
 }
 
+/* banner side image */
+.free-workout {
+    position: absolute;
+    top: 120px;
+    right: -40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.free-workout h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.free-workout p {
+    font-size: 12px;
+    color: gray;
+}
+
+.video-tutorial {
+    position: absolute;
+    top: 380px;
+    right: 270px;
+    background-color: rgba(255, 255, 255, 0.171);
+    padding: 15px 15px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.circle i {
+    font-size: 14px;
+    margin-left: 1px;
+}
+
+.video-tutorial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.video-tutorial-content h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.video-tutorial-content p {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
 /* navbar related styles */
 .navbar {
     justify-content: space-between;
@@ -128,6 +207,493 @@ body{
 }
 .fitnes-img-container img{
     border-radius: 100px;
+}
+
+
+
+/* Run Extra releated Styles */
+.run-extra {
+    background-color: black;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.run-extra-container {
+    width: 1090px;
+    margin: 0px auto;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.run-extra-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.run-extra-title {
+    font-size: 36px;
+    color: white;
+}
+
+.run-extra-description {
+    color: gray;
+    font-size: 14px;
+}
+
+.run-extra-right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.run-extra-right-side img {
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Training And Exercise styles */
+.trainings {
+    width: 100%;
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.trainings-container {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.trainings-title {
+    color: white;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.trainings-description {
+    color: gray;
+    width: 70%;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.trainings-cards {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.trainings-card {
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.trainings-card-1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image: linear-gradient(45deg,
+    rgba(6, 255, 210, 0.5),
+    rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
+}
+
+.trainings-card-2 {
+    grid-column-start: 5;
+    grid-column-end: 13;
+    background-image: linear-gradient(45deg,
+    rgba(255, 0, 0, 0.3),
+    rgba(255, 0, 0, 0.3)), url('../images/exercise2.png');
+}
+
+.trainings-card-3 {
+    grid-column-start: 13;
+    grid-column-end: 17;
+    background-image: linear-gradient(45deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../images/exercise3.png');
+}
+
+.trainings-card-4 {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    background-image: linear-gradient(45deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
+}
+
+.trainings-card-5 {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    background-image: linear-gradient(45deg,
+    rgba(66, 255, 0, 0.3),
+    rgba(66, 255, 0, 0.3)), url('../images/exercise5.jpg');
+}
+
+.trainings-card-6 {
+    grid-column-start: 12;
+    grid-column-end: 17;
+    background-image: linear-gradient(45deg,
+    rgba(0, 71, 255, 0.3),
+    rgba(0, 71, 255, 0.3)), url('../images/exercise6.jpg');
+}
+
+.trainings-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trainings-card-title {
+    color: rgb(211, 202, 202);
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+
+/* BMI Calculator Styles */
+.bmi-calculator {
+    width: 100%;
+    background-color: black;
+}
+
+.bmi-calculator-content {
+    width: 40%;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.bmi-calculator-title {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.bmi-calculator-description {
+    color: gray;
+    font-size: 14px;
+}
+
+
+/* BMI Calculator Chart Styles */
+.bmi-calculator-chart {
+    width: 100%;
+    background-color: #222222;
+    padding: 50px 0px;
+}
+
+.bmi-calculator-chart-container {
+    width: 1090px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+
+.bmi-calculator-chart-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-right: 150px;
+}
+
+.bmi-calculator-chart-left table {
+    border: 1px solid gray;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.bmi-calculator-chart-left th {
+    color: white;
+    padding: 10px 55px 10px 15px;
+    text-align: left;
+}
+
+.bmi-calculator-chart-left td {
+    color: gray;
+    padding: 10px 15px;
+}
+
+.bmi-calculator-chart-right {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bmi-calculator-chart-title {
+    color: white;
+}
+
+.bmi-calculator-chart-description {
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+
+.bmi-calculator-chart-input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+
+.bmi-calculator-chart-input input[type="text"],
+.bmi-calculator-chart-input select {
+   padding: 15px 25px;
+   border-radius: 10px;
+   border: none; 
+   background-color: #393939;
+   color: white;
+   font-size: 18px;
+}
+
+.bmi-calculator-chart-input select{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+
+.bmi-calculator-chart-right select:last-child {
+    width: 100%;
+    grid-column: span 2;
+}
+
+.bmi-calculator-chart-right select option {
+    padding: 0px 30px;
+}
+
+input::placeholder {
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type=text]:focus,
+select:focus {
+    outline: 2px solid tomato;
+}
+
+.bmi-calculator-chart-right button {
+    margin: 0px auto;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 50px;
+}
+
+/* Meet Our Team Styles */
+.team {
+    width: 100%;
+    background-color: black;
+    padding: 30px 0px 80px 0px;
+}
+
+.team-container {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.team-title {
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    margin: 50px 0px 20px 0px;
+}
+
+.team-description {
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.team-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 245px;
+    position: relative;
+    border-radius: 10px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-card-1 {
+    background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.3) 0%,
+      rgba(19, 19, 24, 0.3) 100%
+    ), url('../images/trainer1.png');
+}
+
+.team-card-2 {
+    background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.3) 0%,
+      rgba(19, 19, 24, 0.3) 100%
+    ), url('../images/trainer2.png');
+}
+
+.team-card-3 {
+    background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.3) 0%,
+      rgba(19, 19, 24, 0.3) 100%
+    ), url('../images/trainer3.png');
+}
+
+.team-card-4 {
+    background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.3) 0%,
+      rgba(19, 19, 24, 0.3) 100%
+    ), url('../images/trainer4.png');
+}
+
+.team-card-5 {
+    background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.3) 0%,
+      rgba(19, 19, 24, 0.3) 100%
+    ), url('../images/trainer5.png');
+}
+
+.team-card-6 {
+    background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.3) 0%,
+      rgba(19, 19, 24, 0.3) 100%
+    ), url('../images/trainer6.png');
+}
+
+.trainer-info {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+.trainer-name {
+    color: white;
+}
+
+.trainer {
+    color: gray;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    width: 100%;
+    background-color: #1A1A1A;
+}
+
+.footer-container {
+    width: 1090px;
+    margin: 0 auto;
+    padding: 50px 0px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 300px;
+}
+
+.footer-left,
+.footer-right,
+.footer-middle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-middle {
+    margin-left: 100px;
+}
+
+.footer-title {
+    color: var(--primary-color);
+    font-size: 46px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-description {
+    color: gray;
+    font-size: 14px ;
+    width: 250%;
+}
+
+.footer-section-title {
+    color: white;
+    font-size: 22px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-links li:hover a {
+    color: var(--primary-color);
+}
+
+.footer hr {
+    width: 1090px;
+    margin: 20px auto;
+    background-color: gray;
+    border: none;
+    height: 1px;
+}
+
+.footer-copyright {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
 }
 
 
