@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oleo+Script&display=swap');
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  } 
+body{
+    background-color: black;
+    color: white;
+}
+/* shared styles */
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 800;
+}
+/* header related style */
+body{
+    padding: 30px;
+}
+/* banner related styles */
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 850px;
+}
+
+.banner-title{
+    font-weight: 900;
+    font-size: 78px;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    width: 520px;
+    margin: 0 28px 28px 0;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-2 {
+    background-color: black;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border-color: white;
+}
+
+/* navbar related styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-link span {
+    background-color: orange;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+
