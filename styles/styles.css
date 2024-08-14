@@ -106,5 +106,28 @@ body{
     border-radius: 7px;
     padding: 5px;
 }
+/* habit Section Styles */
+
+.habit{
+    text-align: center;
+    
+}
+.habit h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.habit p{
+    font-size: 14px;
+}   
+
+.fitnes-img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 10px;
+}
+.fitnes-img-container img{
+    border-radius: 100px;
+}
 
 
