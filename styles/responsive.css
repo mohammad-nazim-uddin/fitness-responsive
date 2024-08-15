@@ -5,7 +5,7 @@
 /* Responsive */
 /* Mobile Device  */
 @media screen and (max-width: 576px) {
-    
+
     /* Header */
     .header {
         width: 100%;
@@ -21,171 +21,88 @@
     .nav-links {
         display: none;
     }
-
-
+    .nav-icon{
+        display: inline;
+    }
     /* Banner */
     .banner {
         width: 100%;
-    }
-
-    .banner-container {
         flex-direction: column;
     }
-
-    .banner-content,
-    .banner-image {
-        width: 90%;
+    .banner-description{
+        width: 80%;
     }
-
-    .banner-title {
-        font-size: 40px;
-    }
-
-    .banner-description { 
-        font-size: 12px;
-    }
-
-    .banner-image {
-        align-items: center;
+    .free-workout {
+        right: 20px;
+        top: 975px
     }
     
-    .banner-image img {
-        width: 100%;
-    }
-
-    .free-workout {
-        right: 0px;
-        top: 75px
-    }
-
     .video-tutorial {
-        top: 250px;
-        right: 210px;
+        top: 1250px;
+        right: 250px;
     }
-
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    
     #menu-bars {
         opacity: 1;
     }
-
-
+    
+    
     /* Habits */
     .habits {
         height: 100%;
     }
-
+    
     .habits-container {
         width: 95%;
     }
-
+    
     .habits-title {
         font-size: 35px;
     }
-
+    
     .habits-description {
         width: 95%;
         font-size: 12px;
     }
-
-    .habits-cards {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
+    
+    .fitnes-img-container{
+        display: block;
     }
-
-    .habits-card {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .habits-card img {
-        width: 50%;
-    }
-
-
+    
     /* Run Extra */
     .run-extra-container {
         width: 95%;
         flex-direction: column;
         gap: 25px;
     }
-
+    
     .run-extra-content button {
         width: 100%;
         font-size: 18px;
         font-weight: 700;
         margin-top: 10px;
     }
-
+    
     .run-extra-right-side {
         justify-content: center;
     }
-
+    
     .run-extra-right-side img {
         width: 100%;
     }
-
-
-    /* Trainings and Exercise */
-    .trainings-container {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    .trainings-cards {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-
-    .trainings-card-3,
-    .trainings-card-6 {
-        visibility: hidden;
-        display: none;
-    }
-
-    .trainings-card-1,
-    .trainings-card-2,
-    .trainings-card-4,
-    .trainings-card-5 {
-        width: 100%;
-    }
-
-    .trainings-card-1 {
-        grid-column-start: 0;
-        grid-column-end: 9;
-    }
-
-    .trainings-card-2 {
-        grid-column-start: 9;
-        grid-column-end: 17;
-    }
-
-    .trainings-card-4 {
-        grid-column-start: 0;
-        grid-column-end: 8;
-    }
-
-    .trainings-card-5 {
-        grid-column-start: 8;
-        grid-column-end: 17;
-    }
-
-    .trainings-title {
-        font-size: 40px;
-        width: 70%;
-    }
-
-    .trainings-description {
-        width: 100%;
-        font-size: 12px;
-    }
-
-
+    
+    
+    
+    
     /* BMI Calculator */
     .bmi-calculator-content {
         width: 95%;
     }
-
-
+    
+    
     /* BMI Calculator Chart */
     .bmi-calculator-chart-container {
         width: 95%;
@@ -194,82 +111,70 @@
         padding: 0px;
         padding-bottom: 30px;
     }
-
+    
     .bmi-calculator-chart-left {
         margin-right: 0px;
         gap: 30px;
     }
-
+    
     .bmi-calculator-chart-left,
     .bmi-calculator-chart-right {
-        width: 95%;
+        width: 100%;
     }
-
+    
     .bmi-calculator-chart-input input[type="text"],
     .bmi-calculator-chart-input select {
         padding: 15px 25px;
         width: 100%;
     }
-
+  
+    
     .bmi-calculator-chart button {
         display: inline;
     }
+    
 
-
-    /* Popular */
-    .popular-container {
-        width: 95%;
-    }
-
-    .popular-title {
-        font-size: 35px;
-    }
-
-    .popular-cards {
-        grid-template-columns: 1fr;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-
+    
+    
     /* Team */
     .team-container {
         width: 95%;
     }
-
+    
     .team-title {
         font-size: 35px;
     }
-
+    
     .team-description {
         width: 90%;
         font-size: 12px;
     }
-
+    
     .team-cards {
         grid-template-columns: 1fr;
         width: 90%;
         margin: 0 auto;
         row-gap: 20px;
     }
-
-
+    
+    
     /* Footer */
     .footer-container {
         width: 95%;
         grid-template-columns: 1fr;
         gap: 25px;
     }
-
+    
     .footer-description {
         width: 95%;
     }
-
+    
     .footer-middle {
         margin-left: 0px;
     }
-
+    
     .footer hr {
         width: 90%;
     }
 }
+

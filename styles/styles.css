@@ -185,6 +185,9 @@ body{
     border-radius: 7px;
     padding: 5px;
 }
+.nav-icon{
+    display:none;
+}
 /* habit Section Styles */
 
 .habit{
