@@ -157,6 +157,15 @@
         row-gap: 20px;
     }
     
+    /* FAQ styles */
+    .faq-content{
+        display: block;
+        align-items: center;
+      }
+      .faq-content img{
+        margin-left: -50px;
+        width: 150%;
+      }
     
     /* Footer */
     .footer-container {

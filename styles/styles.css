@@ -612,7 +612,33 @@ select:focus {
     color: gray;
 }
 
-
+/* frequent Asked Question */
+#faq {
+    padding: 50px;
+  }
+  
+  #faq h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
 
 /* Footer Styles */
 .footer {
